@@ -1,0 +1,5 @@
+<%= bootstrap_form_for @post do |f| %>
+  <%= f.text_field :title, placeholder: 'My interesting title' %>
+  <%= f.text_field :link, placeholder: 'http://www.example.com' %>
+  <%= f.primary "Post" %>
+<% end %>
